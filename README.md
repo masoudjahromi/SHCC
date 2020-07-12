@@ -4,4 +4,4 @@ Build a micro API that accepts an image that performs at least 3 manipulations t
 
 ## Code structure at a glance
 
-<a href="https://raw.githubusercontent.com/masoudjahromi/SHCC/master/at_a_glance.png?sanitize=true&raw=true"><img src="https://raw.githubusercontent.com/masoudjahromi/SHCC/master/at_a_glance.png?sanitize=true&raw=true" alt="structure at a glance"></a>
+<a href="https://raw.githubusercontent.com/masoudjahromi/SHCC/master/at_a_glance.png"><img src="https://raw.githubusercontent.com/masoudjahromi/SHCC/master/at_a_glance.png" alt="structure at a glance"></a>
