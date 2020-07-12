@@ -175,6 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        App\Providers\ImageManipulationsProvider::class,
+        App\Providers\ImageFactoryProvider::class,
     ],
 
     /*

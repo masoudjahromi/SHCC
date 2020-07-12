@@ -30,4 +30,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'image_manipulation' => [
+        'type' => env('IMAGE_MANIPULATION_TYPE', 'intervention'),
+    ],
+
 ];
