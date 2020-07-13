@@ -27,6 +27,9 @@ RUN docker-php-ext-install gd && \
         --with-freetype-dir=/usr/include/freetype2 && \
     docker-php-ext-install gd
 
+# Install the PHP exif extention
+RUN docker-php-ext-install exif
+
 # Install the PHP mcrypt extention
 RUN pecl install mcrypt-1.0.1
 RUN docker-php-ext-enable mcrypt
@@ -53,6 +56,8 @@ RUN chown -R www-data:www-data /app
 
 RUN chown -R 775 /app/storage
 
+RUN cp .env.example .env
+RUN php artisan key:generate
 RUN php artisan config:clear
 RUN php artisan cache:clear
 
